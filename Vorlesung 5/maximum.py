@@ -7,8 +7,8 @@ def maximum(a: int, b: int, c: int) -> int:
     else:
         return c
 
-
-m = maximum(3,9,5)
+m = maximum()
+m = maximum(3.5,9.1,5.3)
 print(m)
 m = maximum(9,3,5)
 print(m)
